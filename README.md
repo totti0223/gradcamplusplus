@@ -5,7 +5,7 @@ Keras implementation of gradcam++(gradcam_plus_plus or gradcamplusplus)
 
 Grad-CAM++: Generalized Gradient-based Visual Explanations for Deep Convolutional Networks(https://arxiv.org/abs/1710.11063) by Aditya Chattopadhyay, Anirban Sarkar, Prantik Howlader, Vineeth N Balasubramanian
 
-grad-cam codes for keras was adopted from
+grad-cam codes for keras were adopted from
 https://github.com/eclique/keras-gradcam
 https://github.com/jacobgil/keras-grad-cam
 
