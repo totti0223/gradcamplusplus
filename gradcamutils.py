@@ -44,7 +44,7 @@ def grad_cam_plus(input_model, img, layer_name,H=224,W=224):
 
     first = K.exp(y_c)*grads
     second = K.exp(y_c)*grads*grads
-    third = K.exp(y_c)*grads*grads
+    third = K.exp(y_c)*grads*grads*grads
 
     gradient_function = K.function([input_model.input], [y_c,first,second,third, conv_output, grads])
     y_c, conv_first_grad, conv_second_grad,conv_third_grad, conv_output, grads_val = gradient_function([img])
